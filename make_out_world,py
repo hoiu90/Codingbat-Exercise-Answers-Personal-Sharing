@@ -1,0 +1,7 @@
+def make_out_world(a,b):
+    mid =len(a)//2
+    return a[:mid] + b + a[mid:]
+
+print(make_out_world("hello","world"))
+print(make_out_world("python","is"))
+print(make_out_world("<<>>","fun"))
